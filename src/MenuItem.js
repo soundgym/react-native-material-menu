@@ -37,7 +37,7 @@ function MenuItem({
       {...props}
     >
       <View style={[styles.container, style]}>
-        <Text
+        <View
           ellipsizeMode={ellipsizeMode}
           numberOfLines={1}
           style={[
@@ -47,7 +47,7 @@ function MenuItem({
           ]}
         >
           {children}
-        </Text>
+        </View>
       </View>
     </Touchable>
   );
